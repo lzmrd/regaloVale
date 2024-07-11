@@ -1,0 +1,75 @@
+/* Imposta lo stile di base del corpo della pagina */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile del contenitore principale */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stile dell'intestazione */
+header {
+    background-color: #ff7043;
+    padding: 20px;
+    border-radius: 12px 12px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Stile del contenuto principale */
+main {
+    margin: 20px 0;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Stile dell'elenco dei link */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #ff7043;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ffab91;
+}
+
+/* Stile del piè di pagina */
+footer {
+    margin-top: 20px;
+    font-size: 1.1em;
+    background-color: #ff7043;
+    padding: 10px;
+    border-radius: 0 0 12px 12px;
+    color: #ffffff;
+}
